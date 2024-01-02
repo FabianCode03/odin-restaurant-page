@@ -1,3 +1,8 @@
-h1 {
-  color: green;
+body {
+  background: url("./sushi-restaurant.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  color: aliceblue;
 }
