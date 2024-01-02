@@ -90,6 +90,31 @@ main {
   transform: scale(1.1);
 }
 
+.menu-display {
+  background-color: rgba(255, 140, 0, 0.5);
+  width: 60%;
+  border-radius: 1rem;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.menu-heading {
+}
+
+.grid-wrapper {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 1fr 1fr;
+}
+
+.recipe {
+  display: grid;
+  gap: 1rem;
+  border-radius: 1rem;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 1rem;
+}
+
 footer {
   display: flex;
   justify-content: center;
@@ -104,4 +129,8 @@ footer {
 
 li {
   list-style: none;
+}
+
+img {
+  width: 100%;
 }
