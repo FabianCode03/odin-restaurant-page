@@ -99,6 +99,19 @@ main {
 }
 
 .menu-heading {
+  font-size: 2rem;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid orange;
+  padding-bottom: 1rem;
+  width: 100%;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  text-shadow: 0 0 5px black;
+  text-decoration: underline;
+  text-decoration-color: orange;
+  text-decoration-thickness: 0.2rem;
 }
 
 .grid-wrapper {
@@ -113,6 +126,18 @@ main {
   border-radius: 1rem;
   background-color: rgba(0, 0, 0, 0.8);
   padding: 1rem;
+  transition: all 0.3s ease-in-out;
+  transform: scale(1);
+  border: 1px solid antiquewhite;
+}
+
+.recipe:hover {
+  transform: scale(1.05);
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.9);
+  color: orange;
+  border: 1px solid orange;
 }
 
 footer {
