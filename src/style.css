@@ -116,7 +116,7 @@ main {
 }
 
 .menu-display {
-  background-color: rgba(255, 140, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.8);
   width: 60%;
   border-radius: 1rem;
   padding: 1rem;
@@ -153,7 +153,7 @@ main {
   padding: 1rem;
   transition: all 0.3s ease-in-out;
   transform: scale(1);
-  border: 1px solid antiquewhite;
+  border: 1px solid rgba(51, 51, 51, 0.8);
 }
 
 .recipe:hover {
