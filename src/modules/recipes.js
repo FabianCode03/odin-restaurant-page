@@ -1,13 +1,13 @@
-import bild1 from "./ki-bild-1.jpg";
-import bild2 from "./ki-bild-2.jpg";
-import bild3 from "./ki-bild-3.jpg";
-import bild4 from "./ki-bild-4.jpg";
-import bild5 from "./ki-bild-5.jpg";
-import bild6 from "./ki-bild-6.jpg";
-import bild7 from "./ki-bild-7.jpg";
-import bild8 from "./ki-bild-8.jpg";
-import bild9 from "./ki-bild-9.jpg";
-import bild10 from "./ki-bild-10.jpg";
+import bild1 from "../pictures/ki-bild-1.jpg";
+import bild2 from "../pictures/ki-bild-2.jpg";
+import bild3 from "../pictures/ki-bild-3.jpg";
+import bild4 from "../pictures/ki-bild-4.jpg";
+import bild5 from "../pictures/ki-bild-5.jpg";
+import bild6 from "../pictures/ki-bild-6.jpg";
+import bild7 from "../pictures/ki-bild-7.jpg";
+import bild8 from "../pictures/ki-bild-8.jpg";
+import bild9 from "../pictures/ki-bild-9.jpg";
+import bild10 from "../pictures/ki-bild-10.jpg";
 
 export const sushiRecipes = [
   {

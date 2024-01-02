@@ -1,8 +1,8 @@
-import "./sushi-restaurant.jpg";
+import "./pictures/sushi-restaurant.jpg";
 import "./style.css";
-import { loadPage } from "./loadPage";
-import { loadHome } from "./home";
-import { loadMenu } from "./menu";
+import { loadPage } from "./modules/loadPage";
+import { loadHome } from "./modules/home";
+import { loadMenu } from "./modules/menu";
 
 loadPage();
 

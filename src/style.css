@@ -1,11 +1,11 @@
 @font-face {
   font-family: "Calligraphy";
-  src: url("./scriptina.regular.ttf");
+  src: url("./fonts/scriptina.regular.ttf");
 }
 
 @font-face {
   font-family: "Site-Font";
-  src: url("./Raleway-VariableFont_wght.ttf");
+  src: url("./fonts/Raleway-VariableFont_wght.ttf");
 }
 
 * {
@@ -14,7 +14,7 @@
 }
 
 body {
-  background: url("./sushi-restaurant.jpg");
+  background: url("./pictures/sushi-restaurant.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
