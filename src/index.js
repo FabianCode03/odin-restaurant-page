@@ -4,4 +4,4 @@ import { loadPage } from "./loadPage";
 import { loadMenu } from "./menu";
 
 loadPage();
-loadMenu();
+// loadMenu();

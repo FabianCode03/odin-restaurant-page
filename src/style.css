@@ -48,6 +48,12 @@ header {
   font-size: 2rem;
 }
 
+.menu-point {
+  text-decoration: underline;
+  text-decoration-color: orange;
+  text-decoration-thickness: 0.2rem;
+}
+
 .menu-point:hover {
   color: orange;
   cursor: pointer;
@@ -67,12 +73,26 @@ main {
 .site-title {
   font-size: 6rem;
   font-family: "Calligraphy";
+  text-shadow: 0 0 5px black;
+  text-decoration: underline;
+  text-decoration-color: orange;
+  text-decoration-thickness: 0.2rem;
+  letter-spacing: 0.2rem;
+  margin-bottom: 1rem;
 }
 
 .restaurant-description {
   font-size: 2rem;
   font-weight: 200;
   width: 50ch;
+  text-align: center;
+  text-shadow: 0 0 5px black;
+  text-decoration: underline;
+  text-decoration-color: orange;
+  text-decoration-thickness: 0.2rem;
+  letter-spacing: 0.2rem;
+  margin-bottom: 1rem;
+  line-height: 1.5;
 }
 
 .call-to-action-btn {
@@ -81,6 +101,11 @@ main {
   border: none;
   border-radius: 1rem;
   background-color: orange;
+  color: black;
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
 }
 
 .call-to-action-btn:hover {
