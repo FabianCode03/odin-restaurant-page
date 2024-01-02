@@ -19,5 +19,5 @@ export function loadPage() {
   </h2>
   <button class="call-to-action-btn">Order Now</button>
 </main>
-<footer><p>Copyright © 2024 FabianCode03</p></footer>`;
+<footer><a href="https://github.com/FabianCode03">Copyright © 2024 FabianCode03</a></footer>`;
 }

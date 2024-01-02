@@ -196,3 +196,13 @@ li {
 img {
   width: 100%;
 }
+
+a {
+  text-decoration: none;
+  color: antiquewhite;
+}
+
+a:hover {
+  text-decoration: none;
+  color: orange;
+}
