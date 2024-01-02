@@ -5,9 +5,9 @@ export function loadPage() {
   <header>
   <nav>
     <ul class="flex-row">
-      <li>Home</li>
-      <li>Menu</li>
-      <li>About</li>
+      <li class="menu-point">Home</li>
+      <li class="menu-point">Menu</li>
+      <li class="menu-point">About</li>
     </ul>
   </nav>
 </header>
