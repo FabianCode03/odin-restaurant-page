@@ -17,7 +17,8 @@ export function loadMenu() {
     newRecipe.innerHTML = `
     <h1>${recipe.title}</h1>
     <p>${recipe.description}</p>
-    <img src="${recipe.link}" alt="${recipe.title}">`;
+    <img src="${recipe.link}" alt="${recipe.title}">
+    <span class="price">${recipe.price}</span>`;
 
     grid.appendChild(newRecipe);
   });
