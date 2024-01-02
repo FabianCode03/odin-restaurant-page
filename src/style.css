@@ -177,6 +177,47 @@ main {
   border: 1px solid orange;
 }
 
+.about-container {
+  font-size: 1.5rem;
+  font-weight: 200;
+  width: 80%;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 1rem;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.about-container h1 {
+  font-size: 2rem;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid orange;
+  padding-bottom: 1rem;
+  width: 100%;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  text-shadow: 0 0 5px black;
+  text-decoration: underline;
+  text-decoration-color: orange;
+  text-decoration-thickness: 0.2rem;
+}
+
+.about-container p {
+  margin-bottom: 1rem;
+  line-height: 1.5;
+}
+
+.about-container em {
+  font-style: italic;
+  font-weight: 600;
+  color: orange;
+
+  /* text-decoration: underline;
+  text-decoration-color: orange;
+  text-decoration-thickness: 0.2rem; */
+}
+
 footer {
   display: flex;
   justify-content: center;

@@ -3,6 +3,7 @@ import "./style.css";
 import { loadPage } from "./modules/loadPage";
 import { loadHome } from "./modules/home";
 import { loadMenu } from "./modules/menu";
+import { loadAbout } from "./modules/about";
 
 loadPage();
 
@@ -13,4 +14,5 @@ const about = document.getElementById("about");
 
 home.addEventListener("click", () => loadHome());
 menu.addEventListener("click", () => loadMenu());
+about.addEventListener("click", () => loadAbout());
 callToAction.addEventListener("click", () => loadMenu());
