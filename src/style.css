@@ -46,6 +46,15 @@ main {
   grid-area: main;
 }
 
+.site-title {
+  font-size: 6rem;
+}
+
+.restaurant-description {
+  font-size: 1.5rem;
+  width: 50ch;
+}
+
 footer {
   display: flex;
   justify-content: center;
